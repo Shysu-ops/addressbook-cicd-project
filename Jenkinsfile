@@ -21,7 +21,7 @@ pipeline{
                 sh 'mvn pmd:pmd'
             }
         }
-        stage('package'){
+        stage('packaging'){
             steps{
                 sh 'mvn package'
             }
